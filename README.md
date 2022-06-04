@@ -7,16 +7,23 @@ new paintings while keeping the originality of the image. The data can be found 
 
 
 In this project, we have applied three different generative learning methods to
-generate Monet style painting. The first model is a variational autoencoder which
+generate Monet style painting. The first model is a Variational AutoEncoder (VAE) which
 performed weakly and reconstruction error was high, subsequently the Kaggle
 ranking, and score were not satisfying. In the next step, we used GAN for painting
 generation, which was an improvement over the previous model, but as shown in
-figure 4.2.1 in the attached report, the generated paintings were not similar to the original photos. To
-solve this issue, cycle-consistency GAN was applied, and the performance
+figure 4.2.1, the generated paintings were not similar to the original photos.
+
+
+![Screen Shot 2022-06-04 at 1 19 02 PM](https://user-images.githubusercontent.com/70451567/172018261-5fdfbda0-daf2-4ca1-836f-5445169af272.png)
+
+To solve this issue, cycle-consistency GAN was applied, and the performance
 improvement was dramatic. The Kaggle score changed by 187 points and the
-ranking was 218. In order to decrease the loss values, we augmented the input data
+ranking was 218, also figure 4.3.2 shows the improvemnet of our model in comarison with previous figure. In order to decrease the loss values, we augmented the input data
 and increased the number of epochs, and as anticipated the Kaggle ranking and
 score changed to 57 and 40, respectively.
+
+![Screen Shot 2022-06-04 at 1 17 49 PM](https://user-images.githubusercontent.com/70451567/172018267-4200e08c-dc38-46b3-989e-06cac24923c4.png)
+
 Finally, after comparing different implemented models in previous sections we
 have observed:
 
