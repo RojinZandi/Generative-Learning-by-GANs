@@ -22,7 +22,8 @@ ranking was 218, also figure 4.3.2 shows the improvemnet of our model in comaris
 and increased the number of epochs, and as anticipated the Kaggle ranking and
 score changed to 57 and 40, respectively.
 
-![Screen Shot 2022-06-04 at 1 17 49 PM](https://user-images.githubusercontent.com/70451567/172018267-4200e08c-dc38-46b3-989e-06cac24923c4.png)
+![Screen Shot 2022-06-04 at 1 22 55 PM](https://user-images.githubusercontent.com/70451567/172018394-3bd1bef4-a6b9-4753-9ce9-1b84cacbeb8b.png)
+
 
 Finally, after comparing different implemented models in previous sections we
 have observed:
